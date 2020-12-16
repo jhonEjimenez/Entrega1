@@ -138,11 +138,11 @@ export default {
 </script>
 
 <style scoped>
-.pie{
-width: 1080px;
+
+.pier{
+  background-color: rgb(115,115,115)
 
 }
-
 .iconos {
 
     background-color: #eee;

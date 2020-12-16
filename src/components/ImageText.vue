@@ -1,6 +1,6 @@
 <template>
  <!-- Image and text -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light m navegador">                
+     <nav class="navbar navbar-expand-lg navbar-light bg-light navegador">                
         <div class="collapse navbar-collapse main-nav" id="navbarNav">
           <ul class="navbar-nav ">
               <li class="nav-item ">
@@ -12,13 +12,13 @@
               <a class="nav-link" >Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#interpretacion">Servicios</a>
+              <a class="nav-link"  href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Noticias</a>
+              <a class="nav-link"  href="#noticias">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Equipo</a>
+              <a class="nav-link" href="#nosotros">Equipo</a>
             </li>
           </ul>
         </div>
@@ -35,9 +35,10 @@ export default {
 
  .navegador{    
     height: 64px;
-    width: 1090px;
-    background: rgb(25,153,159) 
+    background: rgb(25,153,159) ;
+    font-size: 19.37px;
  }
+
 
   .main-nav {
     display : flex;     

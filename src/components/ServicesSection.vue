@@ -1,10 +1,10 @@
 <template>
     <!-- services -->
-<div class="features-icons bg-light text-center servicios">
+<div class="features-icons bg-light text-center ">
         <div class="labelServicios">
-             <p class="lead mb-0">Servicios</p>            
+             <p class="lead mb-0" id="servicios">SERVICIOS</p>            
         </div>
-      <div class="container contenedor-imagen">        
+      <div class="contenedor-imagen  container-fluid ">        
         <div class="row">
           <div class="col-lg-4 ">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
@@ -49,15 +49,18 @@ export default {
 
 <style scoped>  
 
-.servicios{
-  width: 1080px;
-
+.contenedor-imagen{
+  background-color: rgb(140,204,207);  
+  width: 100%;
+  
 }
 
 .labelServicios{
-    background-color: rgb(115,115,115);  
+    background-color: rgb(108,117,125);  
     height: 30.98px;
-    width: 1080px;
+    margin-top: 5px;
+    margin-bottom:5px
+    
 }
 
 .tituloServicios{
@@ -71,9 +74,9 @@ export default {
    margin:10px;
    padding: 20px;
    width: auto;
-   height: 180px;
-   max-width: 300px;    
-   max-height: 180px;
+   height: 230px;
+   max-width: 400px;    
+   max-height: 250px;
 }
 
 .contenedor-imagen img{
