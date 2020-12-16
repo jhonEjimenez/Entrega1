@@ -11,7 +11,7 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div >
-              <img class="imagen-servicio" src="../assets/interpretacion.png" alt="texto alternativo descriptivo" id="interpretacion" />
+              <img class="imagen-servicio" src="../assets/interpretacion.png" alt="Interpretacion y modelamiento" id="interpretacion" />              
               <h3>Interpretacion</h3>
               <p class="lead mb-0">Servicio de interpreacion, modelamiento de cuencas y perfiles geologicos</p>
             </div>

@@ -36,11 +36,12 @@
     width:  200px;
     height: 200px ;
     background: rgb(25,153,159);
-    border: 10
+    border: 10;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cajas:hover{
     background-color: rgb(25,153, 159);
 }
-
 
 </style>

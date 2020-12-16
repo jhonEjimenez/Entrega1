@@ -1,4 +1,5 @@
 <template>
+         <!-- carousel -->
          <div id="start" class="carousel-cnt">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -26,8 +27,9 @@
                   <span class="sr-only"></span>
                 </a>
               </div>
-         </div>
 
+
+         </div>
 
 </template>
 
@@ -39,22 +41,52 @@
 </script>
 
 <style scoped>
-.carousel-cnt{
-    display: flex;
-    width: 100%;
+nav{
+    width:100%;
+    display:flex;
+    height: 64px;
+    background-color: rgb(25,153, 159);
     
 }
 
-.carousel-item{
-    width: 100%;
-    height: 400px;
+.img-container{   
+    margin-left: 15.35px;
+    padding-top: 6.2px;
+    padding-bottom: 6.2px;
 }
 
-.carousel-item>.cropped{
-    height: 100%;   
-    object-fit:cover;
-    object-position: 0%, 0%;    
-    margin-left: auto;
+.img-container>img{
+    width: 123px;
+}
+
+
+
+.options-cnt{
+    width: calc(100% - 123px);
+}
+
+
+.options-cnt>ul{
+    font-family: Tahoma, sans-serif;
+    font-size: 19.17px;    
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 18.15px;
+    padding-bottom: 18.15px;
+    margin-bottom: 0px;
+}
+
+.options-cnt>ul>li{
+    margin-left:20.61px;
+    margin-right: 20.61px;
+    align-items: right;
+}
+
+.options-cnt>ul>li>a, .options-cnt>ul>li>a:hover {
+    color: rgb(255,255,255);
+    text-decoration:none;
+    
 }
 
 </style>

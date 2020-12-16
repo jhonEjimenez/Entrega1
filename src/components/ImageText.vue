@@ -1,6 +1,6 @@
 <template>
  <!-- Image and text -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light navegador">                
+     <nav class="navbar navbar-expand-lg navbar-light bg-light navegador container-fluid">                
         <div class="collapse navbar-collapse main-nav" id="navbarNav">
           <ul class="navbar-nav ">
               <li class="nav-item ">
@@ -9,7 +9,7 @@
           </ul>
           <ul class="navbar-nav ">  
             <li class="nav-item ">
-              <a class="nav-link" >Inicio</a>
+              <a class="nav-link" href="#navbarNav">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link"  href="#servicios">Servicios</a>
@@ -45,7 +45,8 @@ export default {
     display: -webkit-flex;    
     justify-content:space-between;
     list-style: none ;
-    background: rgb(25,153,159) 
+    background: rgb(25,153,159) ;    
+    flex-wrap: wrap;
   }
 
   .main-nav .logo {

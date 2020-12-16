@@ -7,6 +7,10 @@
     <!-- Servicios -->
     <services-section> </services-section>
     <!-- noticias -->
+    <div class="labelServicios">
+        <p class="lead mb-0 labelnoticias" id="noticias">NOTICIAS</p>            
+    </div>
+    <NewsSection> </NewsSection>
     <!-- Equipo -->
     <div class="labelServicios">
              <p class="lead mb-0" id="nosotros">NOSOTROS</p>            
@@ -31,6 +35,7 @@ import ServicesSection from './components/ServicesSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import TeamCard from './components/TeamCard.vue'
 import Slice from './components/Slice.vue'
+import NewsSection from './components/ApiNews.vue'
 
 
 export default {
@@ -41,6 +46,7 @@ export default {
         ServicesSection,
         FooterSection,
         TeamCard,
+        NewsSection,
   },
   data(){
      return{
@@ -107,4 +113,12 @@ background-color: rgb(25,153,159);
     margin-bottom:5px
     
 }
+.labelnoticias{
+    background-color: rgb(108,117,125);  
+    height: 30.98px;
+    margin-top: 5px;
+    margin-bottom:5px
+    
+}
+
 </style>
